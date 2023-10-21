@@ -42,6 +42,6 @@ def gradientdecent(m,b,data,lr):
 for ecoch in range(30000000):
     mse,m,b = gradientdecent(m,b,data,lr)
     if(ecoch % 100000) == 0:
-        print(f"第{i}次迭代+++loss={mse:.4f},m={m:.4f},b={b:.4f}")
+        print(f"loss={mse:.4f},m={m:.4f},b={b:.4f}")
 
 #  loss=42.8698,m=1.0859,b=122.6760
